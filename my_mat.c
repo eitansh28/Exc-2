@@ -14,21 +14,9 @@ int makeMat(){
     for(int i=0;i<10;i++){
       for (int j=0; j<10;j++) {
         (scanf(" %d",&y));
-        // if(y==0){
-        //   y=INT_MAX;
-        // }
         mat[i][j]=y;
       }
     }
-    //   for(int i = 0; i < 10; ++i)
-    //   {
-    //     for(int j = 0; j < 10; ++j)
-    //       printf("%d ", mat[i][j]);
-    //
-    //     printf("\n");
-    //
-    //
-    // }
     return 0;
 }
 
@@ -93,13 +81,3 @@ int shortPath(int i,int j){
 
   return mat[i][j];
 }
-
-// int isPath(int i,int j){
-//   if(shortPath(i,j)==0){
-//     printf("False\n");
-//
-//   }else{
-//     printf("True\n");
-//
-//   }return 0;
-// }
