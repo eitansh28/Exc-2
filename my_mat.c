@@ -64,7 +64,7 @@ if(i==j){
       }
     }
   }
-  if(mat[i][j]==0){
+  if(mat[i][j]<=0){
     printf("False\n");
   }else{
     printf("True\n");
